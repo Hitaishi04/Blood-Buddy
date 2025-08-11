@@ -10,7 +10,7 @@ CORS(app)
 # Configure your database connection
 app.config['DB_HOST'] = "localhost"
 app.config['DB_USER'] = "root"
-app.config['DB_PASSWORD'] = "raas@2006"
+app.config['DB_PASSWORD'] = "PASSWORD"
 app.config['DB_DATABASE'] = "blood_buddy"
 
 def get_database_connection():
